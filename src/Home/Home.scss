@@ -1,0 +1,67 @@
+.home{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+    margin: 100px 200px;
+    background-color: lightblue;
+    padding: 100px;
+    border-radius: 50px;
+    font-family: 'Ubuntu', sans-serif;
+
+    .title{
+        position: absolute;
+        justify-content: center;
+        top: -40px;
+        font-size: 70px;
+        align-items: center;
+    }
+
+    h1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    input{
+        position: relative;
+        height: 40px;
+        width: 300px;
+        border-radius: 10px;
+        border-color: lightgray;
+        border-style: solid;
+        font-size: 30px;
+        top: 8px;
+    }
+
+    .button {
+        position: relative;
+        display: block;
+        height: 50px;
+        width: 100px;
+        top: 38px;
+        border-radius: 10px;
+        border-style: solid;
+        background-color: blue;
+        color: white;
+        font-size: 18px;
+    }
+
+    .button:hover{
+        cursor: pointer;
+        background-color: #00308F;
+    }
+
+    .test{
+        position: absolute;
+        top: 500px;
+        font-size: 40px;
+    }
+
+    .currency{
+        display: flex;
+        gap: 50px;
+        font-weight: bold;
+        align-items: center;
+    }
+}
